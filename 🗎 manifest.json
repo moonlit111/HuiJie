@@ -1,0 +1,11 @@
+{
+    "Name": "Huijie",
+    "Author": "Finland",
+    "Version": "1.0.0",
+    "Description": "Add a brand-new NPC HuiJie to the town",
+    "UniqueID": "Finland.HuiJie",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Finnybay.HuiJie"
+    }
+}
