@@ -24,10 +24,10 @@
                     "Home": [
                         {
                             "Id": "Default",
-                            "Location": "CommunityCenter",
+                            "Location": "Town",
                             "Tile": {
-                                "X": 27,
-                                "Y": 12
+                                "X": 52,
+                                "Y": 54
                             },
                             "Direction": "right"
                         }
