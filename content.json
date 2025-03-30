@@ -2,6 +2,12 @@
     "Format": "2.6.0",
     "Changes": [
         {
+            "LogName": "Blank JSON load", 
+            "Action": "Load",
+            "Target": "Characters/Dialogue/huijie, Characters/schedules/huijie, Strings/schedules/huijie",
+            "FromFile": "assets/data/blank.json"
+        },
+        {
             "LogName": "huijie exists!",
             "Action": "Include",
             "FromFile": "assets/data/huijie.json"
