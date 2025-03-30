@@ -1,6 +1,42 @@
 {
     "Format": "2.6.0",
     "Changes": [
-        
+        {
+            "LogName": "huijie exists!",
+            "Action": "Include",
+            "FromFile": "assets/data/huijie.json"
+        },
+        {
+            "LogName": "huijie Portraits",
+            "Action": "Load",
+            "Target": "Portraits/huijie",
+            "FromFile": "assets/images/huijie.png"
+        },
+        {
+            "LogName": "huijie Sprite",
+            "Action": "Load",
+            "Target": "Characters/huijie",
+            "FromFile": "assets/images/huijie_sheet.png"
+        },
+        {
+            "LogName": "NPC Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/data/dialogue.json"
+        },
+        {
+            "LogName": "NPC Schedule",
+            "Action": "Include",
+            "FromFile": "assets/data/schedule.json"
+        },
+        {
+            "LogName": "Festival Include",
+            "Action": "Include",
+            "FromFile": "assets/data/Festivals.json"
+        },
+        {
+            "LogName": "Gift Tastes Include",
+            "Action": "Include",
+            "FromFile": "assets/data/gifttastes.json"
+        }
     ]
 }

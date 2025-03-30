@@ -1,0 +1,325 @@
+{
+    "Changes": 
+    [
+        {	
+            "LogName": "Egg Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 26 62 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 57 21 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Egg Festival - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": 
+            { "huijie": ""
+            }
+            
+        },
+        {	
+            "LogName": "Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 22 41 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 23 41 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Flower Dance - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": 
+            { "huijie": ""
+            }
+        },
+        {	
+            "LogName": "Luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 43 25 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 44 25 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Luau - dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": 
+            { "huijie": ""
+            }
+        },
+        {	
+            "LogName": "Dance of the Moonlight Jellies",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 28 13 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 28 13 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Dance of the Moonlight Jellies - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": 
+            { "huijie": ""
+            }
+        },
+        {	
+            "LogName": "Stardew Valley Fair",
+            "Action": "EditData",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+            "Target": "Data/Festivals/fall16",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 36 24 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Stardew Valley Fair - SVE compat",
+            "Action": "EditData",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+            "Target": "Data/Festivals/fall16",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 30 22 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Stardew Valley Fair",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": 
+            { "huijie": ""
+            }
+        },
+        {	
+            "LogName": "Spirit's Eve",
+            "Action": "EditData",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+            "Target": "Data/Festivals/fall27",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 67 36 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },			
+        {	
+            "LogName": "Spirit's Eve - SVE compat",
+            "Action": "EditData",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+            "Target": "Data/Festivals/fall27",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 68 55 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Spirit's Eve - dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": 
+            { "huijie": ""
+            }
+        },
+        {	
+            "LogName": "Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 31 74 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 31 74 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Festival of Ice - SVE compat",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 31 74 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 31 74 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Festival of Ice - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": 
+            { "huijie": "" }
+        },
+        {	
+            "LogName": "Feast of the Winter Star",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 24 56 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Feast of the Winter Star - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": 
+            { "huijie": ""
+            }
+        },
+        {	
+            "LogName": "Ridgeside Gathering",
+            "Action": "EditData",
+            "When": { "HasMod":"Rafseazz.RSVCP" },
+            "Target": "Data/Festivals/Fall20",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 78 51 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 79 51 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Ridgeside Gathering - Dialogue",
+            "Action": "EditData",
+            "When": { "HasMod":"Rafseazz.RSVCP" },
+            "Target": "Data/Festivals/fall20",
+            "Entries": 
+            { "huijie": ""
+            }
+        },
+        {	
+            "LogName": "Ember of Resolutions",
+            "Action": "EditData",
+            "When": { "HasMod":"Rafseazz.RSVCP" },
+            "Target": "Data/Festivals/winter28",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 38 34 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "MainEvent_additionalCharacters"],
+                    "Value": "huijie 39 34 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {	
+            "LogName": "Ember of Resolutions - Dialogue",
+            "Action": "EditData",
+            "When": { "HasMod":"Rafseazz.RSVCP" },
+            "Target": "Data/Festivals/winter28",
+            "Entries": 
+            { "huijie": ""
+            }
+        }
+    ]
+}

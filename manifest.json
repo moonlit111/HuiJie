@@ -1,0 +1,11 @@
+{
+    "Name": "huijie",
+    "Author": "Finland",
+    "Version": "1.0.0",
+    "Description": "Add a brand-new NPC huijie to the town",
+    "UniqueID": "Finland.huijie",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "LogName": "Blank JSON load",
+    "Action": "Load",
+    "Target": "Characters/Dialogue/huijie, Characters/schedules/huijie, Strings/schedules/huijie",
+    "FromFile": "assets/data/huijie.json"
+}
