@@ -1,0 +1,13 @@
+{
+    "Changes":
+        [
+            {
+                "LogName": "huijie Schedule",
+                "Action": "EditData",
+                "Target": "Characters/schedules/huijie",
+                "Entries": {
+                    "spring": "610 Town 25 50 3/1700 Mountain 52 8 2"
+                }
+            }
+    ]
+    }

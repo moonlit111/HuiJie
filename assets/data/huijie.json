@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "huijie": {
+                    "DisplayName": "慧杰",
+                    "Gender": "male",
+                    "Age": "Adult",
+                    "Manner": "rude",
+                    "SocialAnxiety": "outgoing",
+                    "Optimism": "negative",
+                    "BirthSeason": "fall",
+                    "BirthDay": "10",
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": true,
+                    "CanVisitIsland": true,
+                    "SpouseAdopts": true,
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": true,
+                    "WinterStarParticipant": true,
+                    
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "CommunityCenter",
+                            "Tile": {
+                                "X": 27,
+                                "Y": 12
+                            },
+                            "Direction": "right"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
