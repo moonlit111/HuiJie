@@ -6,7 +6,7 @@
                 "Action": "EditData",
                 "Target": "Characters/schedules/huijie",
                 "Entries": {
-                    "spring": "610 Town 25 50 3/1700 Mountain 52 8 2"
+                    "spring": "610 Town 52 54 3 / 620 Town 25 50 3 / 1700 Mountain 52 8 2"
                 }
             }
     ]
