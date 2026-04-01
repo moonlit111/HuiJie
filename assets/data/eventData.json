@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+            "LogName": "huijie 2-heart event",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "99190001/f huijie 500/p huijie": "spring_day_ambient/-100 -100/farmer 52 58 0 huijie 25 50 3/skippable/viewport 25 50 true/pause 500/playSound dropItem/pause 200/jump huijie 8/pause 400/emote huijie 16/pause 300/speak huijie \"我的桃子！操练了三个月的桃子！$3\"/pause 500/move farmer -27 0 0 false/move farmer 0 -8 0 true/pause 300/speak huijie \"哦，@，你看到了？$7#$b#别误会，这不是我手滑...我是在做'重力对桃子坠落速度影响'的实验！$3\"/pause 600/emote huijie 40/pause 300/speak huijie \"好吧...我手滑了。$2#$b#以前做实验的时候也是这样，总是手忙脚乱的。你知道我连海豚和河豚都分不清，手滑一下不是很正常吗？$2\"/pause 400/question fork1 \"#帮你捡桃子#你自己捡吧，我赶时间\"/fork huijie_2heart_refuse/pause 300/move farmer 0 -2 0/move farmer 2 0 0 true/pause 500/emote huijie 20/pause 200/speak huijie \"你...你帮我捡？$5#$b#不，不用了！我自己能行！我每天做一千个俯卧撑，捡几个桃子算什么！$3\"/pause 500/speak huijie \"...$6#$b#谢谢你，@。真的。虽然我卖桃子卖得不太好，有时候还会把过期的卖给小孩...#$b#但至少还有人愿意帮我捡桃子。$6\"/pause 300/friendship huijie 50/end position 25 50",
+                "huijie_2heart_refuse": "pause 300/emote huijie 28/pause 200/speak huijie \"也是，你自己也忙。没关系，独立完成捡桃子也是一种操练！$2\"/pause 200/move farmer 0 8 2/move farmer 27 0 2 true/end"
+            }
+        },
+        {
+            "LogName": "huijie 4-heart event",
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "99190002/f huijie 1000/p huijie/t 2100 2600": "playful/-100 -100/farmer 14 23 0 huijie 3 19 2/skippable/addConversationTopic huijieSaloonConfession 3/viewport 3 19 true/pause 800/speak huijie \"嘿，@，这么晚还来？来坐。$2\"/pause 500/speak huijie \"我在喝自己酿的桃子酒。不是卖的那种。是给自己喝的版本。$0#$b#你有没有好奇过，为什么一个水产研究生会来星露谷卖桃子？$2\"/pause 600/question fork1 \"#说说看吧#不想听，来喝酒的\"/fork huijie_4heart_dismiss/pause 300/speak huijie \"...好吧。$2#$b#我当时在全国中学生生物学联赛当教练。带队拿了省赛第一，一切都很顺利。$0#$b#直到...我提交了那个研究报告。关于海洋生物神经系统的。$2\"/pause 500/shake huijie 400/pause 200/speak huijie \"我在报告里把海豚分类成了河豚的近亲。不是笔误，我是真的...分不清。$2#$b#然后就被开除了。研究生白读了，教练也当不成了。$2\"/pause 400/emote huijie 40/pause 300/speak huijie \"来星露谷之前，我差点放弃一切。后来想到...至少桃子不会因为你分不清它和苹果就开除你。$2#$b#虽然说实话，我有时候也会把桃子和油桃搞混...$7\"/pause 500/speak huijie \"@，谢谢你听我说这些。我平时不会跟人提起的。$6#$b#也许是因为...我觉得你不会嘲笑我。至少不会当面嘲笑。$6\"/pause 300/friendship huijie 75/end position 3 19",
+                "huijie_4heart_dismiss": "pause 300/speak huijie \"也是，谁想听一个失败者的故事。来，我请你喝一杯桃子酒。$2\"/pause 200/friendship huijie -10/end",
+                "huijieSaloonConfession": "pause 100/end"
+            }
+        },
+        {
+            "LogName": "huijie 6-heart event",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "99190003/f huijie 1500/p huijie/w sunny": "spring_day_ambient/-100 -100/farmer 50 8 2 huijie 52 8 2/skippable/viewport 52 8 true/pause 600/speak huijie \"嘘——别出声！我在观察！$7\"/pause 800/speak huijie \"...$0#$b#...好吧，我什么也没看到。鱼好像游走了。$2\"/pause 400/emote huijie 12/pause 300/speak huijie \"@，你有没有想过一个问题？$0#$b#如果一个人花了七年研究鱼类，最后连海豚和河豚都分不清...那这七年算什么？$2\"/pause 500/question fork1 \"#每个人都有不同的路#至少你还有桃子嘛\"/fork huijie_6heart_peach/pause 300/speak huijie \"不同的路...$6#$b#你知道，我以前觉得研究就是我唯一的路。被开除之后，感觉天都塌了。$2#$b#但来到这里之后...卖桃子、做操练、认识了你...$6\"/pause 400/speak huijie \"也许不同的路不一定更差。至少现在我有了一个不会在我分不清鱼的时候嘲笑我的人。$6#$b#...你是不会嘲笑我的，对吧？$5\"/pause 300/friendship huijie 75/end position 52 8",
+                "huijie_6heart_peach": "pause 300/speak huijie \"桃子...$1#$b#你知道吗，@，你说的对。至少我还有桃子。还有操练。$0#$b#还有你这个会说出'至少你还有桃子'这种话的朋友。$6\"/pause 200/friendship huijie 50/end position 52 8"
+            }
+        },
+        {
+            "LogName": "huijie 8-heart event",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "99190004/f huijie 2000/p huijie": "spring_day_ambient/-100 -100/farmer 93 23 0 huijie 93 20 1/skippable/addConversationTopic huijieTeaching 4/viewport 93 20 true/animate huijie false true 200 20 21 22 23/pause 1000/emote farmer 8/pause 300/speak huijie \"四十七...四十八...四十九...五十！$1\"/pause 300/stopAnimation huijie/faceDirection huijie 2/pause 200/jump huijie 8/pause 300/speak huijie \"@！你来了！看到我刚才做的俯卧撑了吗？标准的鱼类研究式俯卧撑！$1\"/pause 400/speak huijie \"等等，你不觉得鱼类的俯卧撑很奇怪吗？因为鱼没有手...$7#$b#算了，我以前的学生也这么说。但我告诉他们，想象力是科学研究最重要的能力！$0\"/pause 500/speak huijie \"说起来，你知道我以前是生物竞赛教练吗？$0#$b#我带了十二个学生，其中三个拿了省一等奖。那是我最骄傲的时候。$6\"/pause 400/emote huijie 40/pause 300/speak huijie \"然后那个报告毁了这一切。$2#$b#但你知道吗，@，来这里之后我发现...$6\"/pause 400/speak huijie \"也许教练不一定要在教室里。我可以教文森特做俯卧撑，教贾斯认识桃子的营养价值。$0#$b#甚至教你'科学钓鱼法'——虽然上次我把海豚当成了特大号河豚...$7\"/pause 500/speak huijie \"谢谢你一直听我讲这些，@。你是第一个让我觉得也许我不只是个'分不清海豚河豚的桃子贩子'的人。$6\"/pause 300/friendship huijie 75/end position 93 20"
+            }
+        },
+        {
+            "LogName": "huijie 10-heart event",
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "99190005/f huijie 2500/p huijie/t 1800 2400/w sunny": "ocean/-100 -100/farmer 28 34 0 huijie 30 36 0/skippable/addConversationTopic huijieConfession 7/viewport 30 36 true/pause 1500/playSound waves/pause 500/speak huijie \"你来了，@。$6\"/pause 600/speak huijie \"我叫你来是有原因的。$0#$b#你知道我为什么来星露谷吗？$2\"/pause 400/speak huijie \"不是来研究鱼类的。也不是来卖桃子的。$0#$b#是来逃避的。$2\"/pause 500/shake huijie 500/pause 200/speak huijie \"被开除之后，我觉得自己一无是处。分不清海豚和河豚，那可是我研究七年的领域啊...$2#$b#我来到这里，想着随便卖点东西混日子。桃子？为什么不呢？至少桃子不会要求你写研究报告。$2\"/pause 500/speak huijie \"但我没想到会遇见你，@。$6\"/pause 400/emote huijie 28/pause 300/speak huijie \"你知道吗，我的粗鲁...不是因为我真的不在乎。$6#$b#是因为我在乎太多了。太怕再次失败了。太怕别人发现我其实连自己研究的动物都分不清。$6\"/pause 500/speak huijie \"所以我就装作不在乎。桃子卖不出去？无所谓！过期了？正好酿酒！有人嘲笑我？那是他们不懂操练！$3\"/pause 400/faceDirection huijie 1/pause 300/speak huijie \"但在你面前，我装不下去了。$6\"/pause 500/question fork1 \"#你不需要在我面前伪装#...\"/fork huijie_10heart_silent/pause 300/faceDirection huijie 0/pause 200/shake huijie 300/pause 200/speak huijie \"@...$6#$b#你知道吗，这是我第一次觉得...也许被人看穿也不是什么坏事。$6#$b#至少被你看穿不是。$6\"/pause 500/speak huijie \"从今以后，我会在你面前做真实的自己。一个分不清海豚和河豚的、卖桃子的、做过头的操练狂。$6#$b#但也是一个...在乎你的操练狂。$6\"/pause 300/friendship huijie 100/end position 30 36",
+                "huijie_10heart_silent": "pause 500/faceDirection huijie 0/pause 200/speak huijie \"...你不知道说什么对吧。没关系。$2#$b#有些话说出来就够了。不需要回应。$6\"/pause 500/speak huijie \"但我想让你知道，@。在星露谷遇见你，是比发现新品种桃子更重要的事。$6#$b#也比分清海豚和河豚更重要。...好吧，这个比喻不太好。$7\"/pause 300/friendship huijie 50/end position 30 36"
+            }
+        }
+    ]
+}

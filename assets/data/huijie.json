@@ -6,30 +6,30 @@
             "Entries": {
                 "huijie": {
                     "DisplayName": "慧杰",
-                    "Gender": "male",
+                    "Gender": "Male",
                     "Age": "Adult",
-                    "Manner": "rude",
-                    "SocialAnxiety": "outgoing",
-                    "Optimism": "negative",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Negative",
                     "BirthSeason": "fall",
-                    "BirthDay": "10",
+                    "BirthDay": 10,
                     "HomeRegion": "Town",
-                    "CanBeRomanced": true,
-                    "CanVisitIsland": true,
-                    "SpouseAdopts": true,
-                    "IntroductionsQuest": true,
-                    "ItemDeliveryQuests": true,
-                    "WinterStarParticipant": true,
+                    "CanBeRomanced": "True",
+                    "CanVisitIsland": "True",
+                    "SpouseAdopts": "True",
+                    "IntroductionsQuest": "True",
+                    "ItemDeliveryQuests": "True",
+                    "WinterStarParticipant": "True",
                     
                     "Home": [
                         {
                             "Id": "Default",
-                            "Location": "Town",
+                            "Location": "Saloon",
                             "Tile": {
-                                "X": 52,
-                                "Y": 54
+                                "X": 35,
+                                "Y": 8
                             },
-                            "Direction": "right"
+                            "Direction": "left"
                         }
                     ]
                 }

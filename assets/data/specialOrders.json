@@ -1,0 +1,375 @@
+{
+    "Changes": [
+
+        // ============================================================
+        // 任务1: 桃子推广计划（可重复）
+        // 给3个村民送桃子
+        // ============================================================
+        {
+            "LogName": "HuiJie Peach Promo",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Finland_HuiJie_PeachPromo": {
+                    "Name": "桃子推广计划",
+                    "Requester": "huijie",
+                    "Duration": "Week",
+                    "Repeatable": "True",
+                    "RequiredTags": "season_spring, season_summer, season_fall",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Text": "我的桃子需要更多人知道！帮我把桃子送给格斯、乔迪和罗宾尝尝！让他们知道慧杰的桃子是星露谷最好的！不要告诉他们是卖剩的。",
+                    "Objectives": [
+                        {
+                            "Type": "Deliver",
+                            "Text": "送一个桃子给格斯",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "item_peach",
+                                "Message": "桃子？嗯，正好可以用来调酒。谢了。$1",
+                                "TargetName": "Gus"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "送一个桃子给乔迪",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "item_peach",
+                                "Message": "慧杰让你送的桃子？...还行。给文森特尝尝也好。$0",
+                                "TargetName": "Jodi"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "送一个桃子给罗宾",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "item_peach",
+                                "Message": "免费的桃子？不能拒绝。虽然那个人的桃子有时候有点...过熟。$2",
+                                "TargetName": "Robin"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "750"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {}
+                        }
+                    ]
+                }
+            }
+        },
+
+        // ============================================================
+        // 任务2: 河豚研究（一次性, 4心+）
+        // 钓一条河豚
+        // ============================================================
+        {
+            "LogName": "HuiJie Pufferfish Study",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "When": {
+                "Hearts:huijie": "4, 5, 6, 7, 8, 9, 10"
+            },
+            "Entries": {
+                "Finland_HuiJie_PufferfishStudy": {
+                    "Name": "河豚研究",
+                    "Requester": "huijie",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "False",
+                    "RequiredTags": "season_summer",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Text": "嘘...帮我钓一条河豚。不要问为什么。%说白了，我想仔细研究一下它到底和海豚有什么区别。%这是为了科学！不是为了证明我当年犯了错误！...好吧也许有一点是为了那个。",
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "钓一条河豚",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_pufferfish"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1000"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {}
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "Finland_HuiJie_PufferfishStudy_thanks"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+
+        // ============================================================
+        // 任务3: 操练补给（可重复）
+        // 收集3份烹饪食物
+        // ============================================================
+        {
+            "LogName": "HuiJie Training Supplies",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Finland_HuiJie_TrainingSupplies": {
+                    "Name": "操练补给",
+                    "Requester": "huijie",
+                    "Duration": "Week",
+                    "Repeatable": "True",
+                    "RequiredTags": "",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Text": "操练需要能量补充！给我带一些高能量的食物！生存午餐、炒蛋、沙拉都行！%别给我桃子，我自己有的是桃子。那不算操练补给。",
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "收集3份烹饪食物（不含桃子）",
+                            "RequiredCount": "3",
+                            "Data": {
+                                "AcceptedContextTags": "category_cooking"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "500"
+                            }
+                        },
+                        {
+                            "Type": "Item",
+                            "Data": {
+                                "Item": "636",
+                                "Count": "5"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+
+        // ============================================================
+        // 任务4: 桃子酒的秘密材料（一次性, 4心+）
+        // 收集3桃子 + 1蜂蜜
+        // ============================================================
+        {
+            "LogName": "HuiJie Peach Wine Secret",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "When": {
+                "Hearts:huijie": "4, 5, 6, 7, 8, 9, 10"
+            },
+            "Entries": {
+                "Finland_HuiJie_PeachWineSecret": {
+                    "Name": "桃子酒的秘密材料",
+                    "Requester": "huijie",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "False",
+                    "RequiredTags": "season_summer, season_fall",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Text": "秘密任务。帮我收集蜂蜜和桃子...是关于那个不能告诉格斯的秘密配方。%别问太多问题，完成后你就知道了。%带3个桃子和1份蜂蜜来就行。",
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "收集3个桃子",
+                            "RequiredCount": "3",
+                            "Data": {
+                                "AcceptedContextTags": "item_peach"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "收集1份蜂蜜",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "item_honey"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "1500"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {}
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "Finland_HuiJie_PeachWineSecret_thanks"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+
+        // ============================================================
+        // 任务5: 海豚还是河豚？分清楚！（一次性, 6心+）
+        // 钓3种不同海洋鱼
+        // ============================================================
+        {
+            "LogName": "HuiJie Ocean Fish Study",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "When": {
+                "Hearts:huijie": "6, 7, 8, 9, 10"
+            },
+            "Entries": {
+                "Finland_HuiJie_OceanFishStudy": {
+                    "Name": "海豚还是河豚？分清楚！",
+                    "Requester": "huijie",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": "False",
+                    "RequiredTags": "season_summer",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Text": "我决定了，我要正面面对我的鱼类分类恐惧！%帮我钓三种不同的海洋鱼，我要...认真研究它们的区别。%这次绝不会搞混。大概。也许。%",
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "钓一条金枪鱼",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_tuna"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "钓一条罗非鱼",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_tilapia"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "钓一条红鲷鱼",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "fish_red_snapper"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "800"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {}
+                        },
+                        {
+                            "Type": "Item",
+                            "Data": {
+                                "Item": "685",
+                                "Count": "10"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+
+        // ============================================================
+        // 任务6: 教导新人（可重复）
+        // 送桃子给文森特和贾斯
+        // ============================================================
+        {
+            "LogName": "HuiJie Teach Kids",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Finland_HuiJie_TeachKids": {
+                    "Name": "教导新人",
+                    "Requester": "huijie",
+                    "Duration": "Week",
+                    "Repeatable": "True",
+                    "RequiredTags": "season_spring, season_summer, season_fall",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Text": "那些孩子需要营养和知识！帮我把桃子送给文森特和贾斯，一人一个！%这是教育，不是推销！%虽然...如果他们因此喜欢上桃子那也不坏。",
+                    "Objectives": [
+                        {
+                            "Type": "Deliver",
+                            "Text": "送一个桃子给文森特",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "item_peach",
+                                "Message": "桃子！谢谢！慧杰叔叔说吃了桃子才能做俯卧撑！$1",
+                                "TargetName": "Vincent"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "送一个桃子给贾斯",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "item_peach",
+                                "Message": "...谢谢。虽然我不确定我需要这个。$0",
+                                "TargetName": "Jas"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "300"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

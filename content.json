@@ -1,14 +1,14 @@
 {
-    "Format": "2.6.0",
+    "Format": "2.9.0",
     "Changes": [
         {
-            "LogName": "Blank JSON load", 
+            "LogName": "Blank JSON load",
             "Action": "Load",
-            "Target": "Characters/Dialogue/huijie, Characters/schedules/huijie, Strings/schedules/huijie",
+            "Target": "Characters/Dialogue/huijie, Characters/schedules/huijie",
             "FromFile": "assets/data/blank.json"
         },
         {
-            "LogName": "huijie exists!",
+            "LogName": "huijie NPC Disposition",
             "Action": "Include",
             "FromFile": "assets/data/huijie.json"
         },
@@ -25,6 +25,11 @@
             "FromFile": "assets/images/huijie_sheet.png"
         },
         {
+            "LogName": "huijie Animations",
+            "Action": "Include",
+            "FromFile": "assets/data/animations.json"
+        },
+        {
             "LogName": "NPC Dialogue",
             "Action": "Include",
             "FromFile": "assets/data/dialogue.json"
@@ -35,6 +40,42 @@
             "FromFile": "assets/data/schedule.json"
         },
         {
+            "LogName": "Schedule Dialogue",
+            "Action": "Load",
+            "Target": "Strings/schedules/huijie",
+            "FromFile": "assets/data/scheduleDialogue.json"
+        },
+        {
+            "LogName": "Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialoguehuijie",
+            "FromFile": "assets/data/marriageDialogue.json"
+        },
+        {
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "huijie0": "结...结婚？！$6#$b#我，慧杰，曾经的生物竞赛教练，竟然有人愿意嫁给我？$8#$b#...我答应了。但是婚后每天的操练计划你也要参加！$0",
+                "huijie1": "婚礼就在明天...我紧张得做不下去俯卧撑了。$7"
+            }
+        },
+        {
+            "LogName": "Heart Events",
+            "Action": "Include",
+            "FromFile": "assets/data/eventData.json"
+        },
+        {
+            "LogName": "Villager Changes",
+            "Action": "Include",
+            "FromFile": "assets/data/villagerChanges.json"
+        },
+        {
+            "LogName": "Custom Mail",
+            "Action": "Include",
+            "FromFile": "assets/data/customMail.json"
+        },
+        {
             "LogName": "Festival Include",
             "Action": "Include",
             "FromFile": "assets/data/Festivals.json"
@@ -43,6 +84,11 @@
             "LogName": "Gift Tastes Include",
             "Action": "Include",
             "FromFile": "assets/data/gifttastes.json"
+        },
+        {
+            "LogName": "Special Orders",
+            "Action": "Include",
+            "FromFile": "assets/data/specialOrders.json"
         }
     ]
 }

@@ -1,7 +1,7 @@
 {
-    "Changes": 
+    "Changes":
     [
-        {	
+        {
             "LogName": "Egg Festival",
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
@@ -25,12 +25,11 @@
             "LogName": "Egg Festival - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
-            "Entries": 
-            { "huijie": ""
-            }
-            
+            "Entries":
+            { "huijie": "彩蛋？不如去找桃核！我每年都这么跟孩子们说，然后被乔迪瞪一眼。#$b#操练你的眼睛，在草丛里找东西也是一种视觉操练！#$0#" }
         },
-        {	
+
+        {
             "LogName": "Flower Dance",
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
@@ -50,15 +49,15 @@
                 }
             ]
         },
-        {	
+        {
             "LogName": "Flower Dance - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
-            "Entries": 
-            { "huijie": ""
-            }
+            "Entries":
+            { "huijie": "跳舞？跳舞算什么操练！...好吧，我看到塞巴斯蒂安在角落里站着，至少比他还强一点。#$b#你要不要来一杯桃子汁补充一下能量？#$1#" }
         },
-        {	
+
+        {
             "LogName": "Luau",
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
@@ -78,15 +77,15 @@
                 }
             ]
         },
-        {	
-            "LogName": "Luau - dialogue",
+        {
+            "LogName": "Luau - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
-            "Entries": 
-            { "huijie": ""
-            }
+            "Entries":
+            { "huijie": "我给总督带了特制桃子汤，是用我研究了三年的秘方熬的！#$b#...当然，他去年连看都没看就走了。但今年一定不一样，我对配方进行了操练级别的改进！#$3#" }
         },
-        {	
+
+        {
             "LogName": "Dance of the Moonlight Jellies",
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
@@ -106,15 +105,15 @@
                 }
             ]
         },
-        {	
+        {
             "LogName": "Dance of the Moonlight Jellies - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
-            "Entries": 
-            { "huijie": ""
-            }
+            "Entries":
+            { "huijie": "水母！这些生物的神经系统是我研究生时期的重点研究方向！#$b#虽然我论文里把部分水母误分类成了河豚的近亲...但那只是一个小失误！#$b#看着它们发光的样子，让我重新燃起了学术热情！#$1#" }
         },
-        {	
+
+        {
             "LogName": "Stardew Valley Fair",
             "Action": "EditData",
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
@@ -129,7 +128,7 @@
                 }
             ]
         },
-        {	
+        {
             "LogName": "Stardew Valley Fair - SVE compat",
             "Action": "EditData",
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
@@ -144,15 +143,15 @@
                 }
             ]
         },
-        {	
-            "LogName": "Stardew Valley Fair",
+        {
+            "LogName": "Stardew Valley Fair - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
-            "Entries": 
-            { "huijie": ""
-            }
+            "Entries":
+            { "huijie": "我的桃子展品在农业展示区！今年我用了特殊操练法培育它们——每天对着桃树做一百个俯卧撑。#$b#科学依据？呃...至少桃子看起来很精神！你要不要尝一片？免费样品！#$0#" }
         },
-        {	
+
+        {
             "LogName": "Spirit's Eve",
             "Action": "EditData",
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
@@ -166,8 +165,8 @@
                     "Delimiter": "/"
                 }
             ]
-        },			
-        {	
+        },
+        {
             "LogName": "Spirit's Eve - SVE compat",
             "Action": "EditData",
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
@@ -182,19 +181,19 @@
                 }
             ]
         },
-        {	
-            "LogName": "Spirit's Eve - dialogue",
+        {
+            "LogName": "Spirit's Eve - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
-            "Entries": 
-            { "huijie": ""
-            }
+            "Entries":
+            { "huijie": "我不怕鬼。真正的恐惧是你提交了一篇花了两年写的研究论文，然后审稿人告诉你海豚不是河豚。#$b#那才是万圣节该讲的可怖故事。#$2#" }
         },
-        {	
+
+        {
             "LogName": "Festival of Ice",
             "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+            "Target": "Data/Festivals/winter8",
             "TextOperations":
             [
                 {
@@ -211,11 +210,11 @@
                 }
             ]
         },
-        {	
+        {
             "LogName": "Festival of Ice - SVE compat",
             "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+            "Target": "Data/Festivals/winter8",
             "TextOperations":
             [
                 {
@@ -232,14 +231,15 @@
                 }
             ]
         },
-        {	
+        {
             "LogName": "Festival of Ice - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
-            "Entries": 
-            { "huijie": "" }
+            "Entries":
+            { "huijie": "冰钓比赛？终于有我能发挥专业特长的地方了！鱼类行为学，我的本行！#$b#唯一的问题是...我钓上来的每条鱼都忍不住先鉴定一下物种，然后比赛就结束了。#$7#" }
         },
-        {	
+
+        {
             "LogName": "Feast of the Winter Star",
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
@@ -253,73 +253,12 @@
                 }
             ]
         },
-        {	
+        {
             "LogName": "Feast of the Winter Star - Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
-            "Entries": 
-            { "huijie": ""
-            }
+            "Entries":
+            { "huijie": "冬日星盛会！我今年准备了一份特别的桃子礼物给秘密礼物交换对象。#$b#...好吧是去年的存货，但我做了翻新操练！表面看起来和新的一样！#$b#等等，你不会是我的交换对象吧？#$3#" }
         },
-        {	
-            "LogName": "Ridgeside Gathering",
-            "Action": "EditData",
-            "When": { "HasMod":"Rafseazz.RSVCP" },
-            "Target": "Data/Festivals/Fall20",
-            "TextOperations":
-            [
-                {
-                    "Operation": "Append",
-                    "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "huijie 78 51 up",
-                    "Delimiter": "/"
-                },
-                {
-                    "Operation": "Append",
-                    "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "huijie 79 51 up",
-                    "Delimiter": "/"
-                }
-            ]
-        },
-        {	
-            "LogName": "Ridgeside Gathering - Dialogue",
-            "Action": "EditData",
-            "When": { "HasMod":"Rafseazz.RSVCP" },
-            "Target": "Data/Festivals/fall20",
-            "Entries": 
-            { "huijie": ""
-            }
-        },
-        {	
-            "LogName": "Ember of Resolutions",
-            "Action": "EditData",
-            "When": { "HasMod":"Rafseazz.RSVCP" },
-            "Target": "Data/Festivals/winter28",
-            "TextOperations":
-            [
-                {
-                    "Operation": "Append",
-                    "Target": ["Entries", "Set-Up_additionalCharacters"],
-                    "Value": "huijie 38 34 down",
-                    "Delimiter": "/"
-                },
-                {
-                    "Operation": "Append",
-                    "Target": ["Entries", "MainEvent_additionalCharacters"],
-                    "Value": "huijie 39 34 down",
-                    "Delimiter": "/"
-                }
-            ]
-        },
-        {	
-            "LogName": "Ember of Resolutions - Dialogue",
-            "Action": "EditData",
-            "When": { "HasMod":"Rafseazz.RSVCP" },
-            "Target": "Data/Festivals/winter28",
-            "Entries": 
-            { "huijie": ""
-            }
-        }
     ]
 }

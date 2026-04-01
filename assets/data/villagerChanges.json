@@ -1,0 +1,103 @@
+{
+    "Changes": [
+        //Gus — 修改周一提到慧杰
+        {
+            "LogName": "Gus Monday dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "Mon": "慧杰又住在我酒馆二楼了。老实说，他的桃子酒配方确实需要改进...但他每天早上在二楼做俯卧撑的热情倒是真的。$1"
+            }
+        },
+
+        //Willy — 添加关于慧杰的对话
+        {
+            "LogName": "Willy dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+                "huijieSaloonConfession": "那个叫慧杰的家伙说他以前研究鱼类？有次他告诉我海豚是河豚的近亲...我不知道该怎么回应。$2"
+            }
+        },
+
+        //Jodi — 添加关于慧杰卖桃子给文森特的对话
+        {
+            "LogName": "Jodi dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "huijieSaloonConfession": "慧杰上周把不太新鲜的桃子卖给了文森特...我跟他谈过了。他看起来挺后悔的，但我还是不太放心。$2"
+            }
+        },
+
+        //Vincent — 添加关于慧杰的对话
+        {
+            "LogName": "Vincent dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "huijieSaloonConfession": "慧杰叔叔说如果我每天做五十个俯卧撑就给我一个桃子！我已经做了十个了！$1"
+            }
+        },
+
+        //Robin — 添加关于慧杰送桃子的对话
+        {
+            "LogName": "Robin dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "huijieSaloonConfession": "慧杰送了我一箱桃子。说实话，有几个已经熟过头了，但心意我收到了。他总是那么...执着。$0"
+            }
+        },
+
+        //Linus — 添加关于慧杰的对话
+        {
+            "LogName": "Linus dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+                "huijieSaloonConfession": "那个叫慧杰的人有时会来山里'操练'。他不像其他人那样避开我。他甚至给了我一个桃子。$0"
+            }
+        },
+
+        //Pierre — 添加关于慧杰想在店门口摆摊的对话
+        {
+            "LogName": "Pierre dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+                "huijieSaloonConfession": "那个卖桃子的家伙又想在我店门口摆摊了！我尊重竞争，但至少给我留点空间吧？$2"
+            }
+        },
+
+        //Leah — 添加关于慧杰的对话
+        {
+            "LogName": "Leah dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "huijieSaloonConfession": "慧杰昨天试图向我解释鱼类神经系统。他的理论很有趣，虽然我不确定海豚是不是真的像他说的那样...$2"
+            }
+        },
+
+        //Emily — 添加关于慧杰的对话
+        {
+            "LogName": "Emily dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "huijieSaloonConfession": "慧杰的气场很独特...充满了桃子和俯卧撑的能量。我帮他做了一件桃子色的围巾！$1"
+            }
+        },
+
+        //Sam — 添加关于慧杰的对话
+        {
+            "LogName": "Sam dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "huijieSaloonConfession": "那个慧杰叔叔居然挑战我做俯卧撑比赛...我做了三十个就放弃了。他做了一百个还在继续。$2"
+            }
+        }
+    ]
+}
