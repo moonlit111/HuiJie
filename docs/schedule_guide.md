@@ -353,12 +353,9 @@
 
 | 动画名 | 含义 | 使用场景 |
 |--------|------|----------|
-| huijie_exercise | 俯卧撑 | 每日操练时间 |
-| huijie_sitting_drinking | 坐着喝酒 | 酒吧晚间 |
-| huijie_reading | 看书 | 酒吧看书时间 |
-| huijie_sitting | 坐着 | 雨天发呆 |
-| huijie_standing | 站立 | 默认站立 |
-| huijie_selling | 卖东西 | 卖桃子时 |
+| huijie_standing | 空闲站立 | 操练时间、卖桃子 |
+| huijie_drinking | 喝酒 | 酒吧晚间 |
+| huijie_sitting | 坐姿 | 酒馆坐着、冬季看书 |
 | huijie_fishing | 钓鱼 | 海边/山区钓鱼 |
 
 ---

@@ -76,13 +76,10 @@
 
 | 动画 | 触发条件 | 观察位置 |
 |------|----------|----------|
-| `huijie_exercise` (俯卧撑) | 雨天酒馆内、森林日程 | Saloon/Forest |
-| `huijie_sitting` | 雨天酒馆内 | Saloon |
-| `huijie_reading` | 酒馆看书 | Saloon |
-| `huijie_selling` | 镇上卖桃子 | Town |
-| `huijie_fishing` | 海滩日程 | Beach |
-| `huijie_sitting_drinking` | 周五晚喝酒 | Saloon |
-| `huijie_standing` | 站立 | 各处 |
+| `huijie_standing` (空闲站立) | 每日操练时间、镇上卖桃子 | 各处 |
+| `huijie_sitting` (坐姿) | 酒馆坐着、冬季看书 | Saloon |
+| `huijie_drinking` (喝酒) | 每日晚间喝酒 | Saloon |
+| `huijie_fishing` (钓鱼) | 海滩日程 | Beach |
 
 > 测试方法：按日程时间前往对应地点，观察动画是否流畅播放。
 
