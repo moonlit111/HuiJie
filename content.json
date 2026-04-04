@@ -76,6 +76,11 @@
             "FromFile": "assets/data/customMail.json"
         },
         {
+            "LogName": "Custom Achievements",
+            "Action": "Include",
+            "FromFile": "assets/data/customAchievements.json"
+        },
+        {
             "LogName": "Festival Include",
             "Action": "Include",
             "FromFile": "assets/data/Festivals.json"
@@ -89,6 +94,11 @@
             "LogName": "Special Orders",
             "Action": "Include",
             "FromFile": "assets/data/specialOrders.json"
+        },
+        {
+            "LogName": "Peach Stall",
+            "Action": "Include",
+            "FromFile": "assets/data/peachStall.json"
         }
     ]
 }

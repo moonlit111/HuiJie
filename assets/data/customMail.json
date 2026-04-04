@@ -6,12 +6,14 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "huijieWelcome": "嘿，新来的农场主！^我是慧杰，住在格斯的酒馆里。^^听说你刚搬到镇上，如果你对桃子或操练感兴趣，随时来找我。^^我对鱼类也很了解...虽然最近的研究成果不太理想。^^别信别人说我分不清海豚和河豚。那只是一次笔误。^-慧杰",
+                "huijieWelcome": "嘿，新来的农场主！^我是慧杰，浅川一中前任生物竞赛教练，在西岭农业大学研究了几年中华鲟，现在却来卖桃子的男人。^^听说你刚搬到镇上，如果你对桃子或操练感兴趣，随时来找我。^^我对鱼类也很了解...虽然最近的研究成果不太理想。^^别信别人说我分不清海豚和河豚。那只是一次笔误。^-慧杰",
                 "huijiePeachGift": "@，^这些桃子有点熟过头了，不适合卖了。但还可以吃！别浪费！^^-慧杰 %item object 636 3 %%",
                 "huijieRecipeGift": "@，^^我最近研究出了一种新的桃子保存方法，配方附上。别问为什么方法里包含俯卧撑。这是科学。^^-慧杰 %item cookingRecipe 208 %%",
 
                 "Finland_HuiJie_PufferfishStudy_thanks": "@，^^我仔细研究了那条河豚。确认了——它确实不是海豚。这是科学上的重大进步。%至少对我个人来说是。%%谢谢你帮我完成这次研究。也许有一天我能真正分清所有鱼类。%...也许。^^-慧杰 %item object 685 5 %%",
-                "Finland_HuiJie_PeachWineSecret_thanks": "@，^^桃子酒完成了！味道...还不错！格斯绝对不会发现的。^^作为感谢，附上我的特制桃子酒配方。这是操练后的最佳恢复饮品！%绝对不是因为我卖不出去才给你的。^^-慧杰 %item cookingRecipe 614 %%"
+                "Finland_HuiJie_PeachWineSecret_thanks": "@，^^桃子酒完成了！味道...还不错！格斯绝对不会发现的。^^作为感谢，附上我的特制桃子酒配方。这是操练后的最佳恢复饮品！%绝对不是因为我卖不出去才给你的。^^-慧杰 %item cookingRecipe 614 %%",
+
+                "huijie23rdClass": "@，^^昨晚做了个梦，梦见2023届竞赛班的那四个种子选手。他们一路过关斩将进了省赛，然后...全军覆没。没有一个进全国决赛。^^你说，一个教练最大的失败是什么？不是分不清海豚和河豚。是把一群好苗子带废了。^^不说了。桃子不会让你失望。^^-慧杰"
             }
         },
 
@@ -42,6 +44,16 @@
             "Target": "Data/Events/Farm",
             "Entries": {
                 "99190012/f huijie 1500/x huijieRecipeGift": "null"
+            }
+        },
+
+        //8心后寄出2023届反思信
+        {
+            "LogName": "Send 23rd class reflection after 8 hearts",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "99190013/f huijie 2000/x huijie23rdClass": "null"
             }
         }
     ]

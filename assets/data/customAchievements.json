@@ -1,0 +1,132 @@
+{
+    "Changes": [
+        {
+            "LogName": "HuiJie Achievement Definitions",
+            "Action": "EditData",
+            "Target": "custom_achievements_dictionary",
+            "Entries": {
+                "Finland_HuiJie_Achievement_FirstTime": {
+                    "ID": "Finland_HuiJie_Achievement_FirstTime",
+                    "name": "慧杰的第一次",
+                    "description": "第一次真正走近慧杰，是从替她捡起满地桃子开始的。",
+                    "achieved": false
+                },
+                "Finland_HuiJie_Achievement_RipeTonight": {
+                    "ID": "Finland_HuiJie_Achievement_RipeTonight",
+                    "name": "慧杰今夜有点熟",
+                    "description": "在酒吧深夜里，听她说起那些平时不会轻易说出口的事。",
+                    "achieved": false
+                },
+                "Finland_HuiJie_Achievement_OnTheHook": {
+                    "ID": "Finland_HuiJie_Achievement_OnTheHook",
+                    "name": "慧杰上钩了",
+                    "description": "在山间的那次对话后，慧杰开始重新相信自己还能走下去。",
+                    "achieved": false
+                },
+                "Finland_HuiJie_Achievement_NaNengZhong": {
+                    "ID": "Finland_HuiJie_Achievement_NaNengZhong",
+                    "name": "那能中",
+                    "description": "她又一次提起那些放不下的过去，而你还在认真听着。",
+                    "achieved": false
+                },
+                "Finland_HuiJie_Achievement_LiveInHeart": {
+                    "ID": "Finland_HuiJie_Achievement_LiveInHeart",
+                    "name": "今晚住慧杰心上",
+                    "description": "在海边听见她终于承认，粗鲁只是她藏起来的伪装。",
+                    "achieved": false
+                },
+                "Finland_HuiJie_Achievement_PeachesAreYours": {
+                    "ID": "Finland_HuiJie_Achievement_PeachesAreYours",
+                    "name": "慧杰的桃子归你了",
+                    "description": "走到最后，连她最舍不得的那部分，也终于愿意分给你。",
+                    "achieved": false
+                }
+            },
+            "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+        },
+        {
+            "LogName": "Unlock HuiJie First Time",
+            "Action": "EditData",
+            "Target": "custom_achievements_dictionary",
+            "Fields": {
+                "Finland_HuiJie_Achievement_FirstTime": {
+                    "achieved": true
+                }
+            },
+            "When": {
+                "HasSeenEvent |contains=99190001": "true"
+            },
+            "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+        },
+        {
+            "LogName": "Unlock HuiJie Ripe Tonight",
+            "Action": "EditData",
+            "Target": "custom_achievements_dictionary",
+            "Fields": {
+                "Finland_HuiJie_Achievement_RipeTonight": {
+                    "achieved": true
+                }
+            },
+            "When": {
+                "HasSeenEvent |contains=99190002": "true"
+            },
+            "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+        },
+        {
+            "LogName": "Unlock HuiJie On The Hook",
+            "Action": "EditData",
+            "Target": "custom_achievements_dictionary",
+            "Fields": {
+                "Finland_HuiJie_Achievement_OnTheHook": {
+                    "achieved": true
+                }
+            },
+            "When": {
+                "HasSeenEvent |contains=99190003": "true"
+            },
+            "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+        },
+        {
+            "LogName": "Unlock HuiJie Na Neng Zhong",
+            "Action": "EditData",
+            "Target": "custom_achievements_dictionary",
+            "Fields": {
+                "Finland_HuiJie_Achievement_NaNengZhong": {
+                    "achieved": true
+                }
+            },
+            "When": {
+                "HasSeenEvent |contains=99190004": "true"
+            },
+            "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+        },
+        {
+            "LogName": "Unlock HuiJie Live In Heart",
+            "Action": "EditData",
+            "Target": "custom_achievements_dictionary",
+            "Fields": {
+                "Finland_HuiJie_Achievement_LiveInHeart": {
+                    "achieved": true
+                }
+            },
+            "When": {
+                "HasSeenEvent |contains=99190005": "true"
+            },
+            "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+        },
+        {
+            "LogName": "Unlock HuiJie Peaches Are Yours",
+            "Action": "EditData",
+            "Target": "custom_achievements_dictionary",
+            "Fields": {
+                "Finland_HuiJie_Achievement_PeachesAreYours": {
+                    "achieved": true
+                }
+            },
+            "When": {
+                "HasSeenEvent |contains=99190007": "true"
+            },
+            "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+        }
+    ]
+}

@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "Mon": "慧杰又住在我酒馆二楼了。老实说，他的桃子酒配方确实需要改进...但他每天早上在二楼做俯卧撑的热情倒是真的。$1"
+                "Mon": "慧杰又住在我酒馆二楼了。老实说，他的桃子酒配方确实需要改进...但他每天早上在二楼做俯卧撑的热情倒是真的。$1#$b#他有时候喝多了会嘟囔'2023届全完了'，我也不敢问是什么意思。$1"
             }
         },
 
@@ -66,7 +66,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "huijieSaloonConfession": "那个卖桃子的家伙又想在我店门口摆摊了！我尊重竞争，但至少给我留点空间吧？$2"
+                "huijieSaloonConfession": "那个卖桃子的家伙又想在我店门口摆摊了！他居然说我的商品'不够高端'，只有他精心培育的桃子才配得上'有品味的顾客'。他自己卖过期桃子的人！我尊重竞争，但至少给我留点空间吧？$2"
             }
         },
 
@@ -76,7 +76,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "huijieSaloonConfession": "慧杰昨天试图向我解释鱼类神经系统。他的理论很有趣，虽然我不确定海豚是不是真的像他说的那样...$2"
+                "huijieSaloonConfession": "慧杰昨天试图向我解释鱼类神经系统。他讲得激动的时候脖子伸得老长，像只加拉帕戈斯象龟。虽然他的理论很有趣，但我不确定海豚是不是真的像他说的那样...$2"
             }
         },
 
@@ -86,7 +86,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "huijieSaloonConfession": "慧杰的气场很独特...充满了桃子和俯卧撑的能量。我帮他做了一件桃子色的围巾！$1"
+                "huijieSaloonConfession": "慧杰的气场很独特...充满了桃子和俯卧撑的能量。说实话，他脖子长长的，让我想起纪录片里的加拉帕戈斯象龟。我帮他做了一件桃子色的围巾！$1"
             }
         },
 
@@ -96,7 +96,17 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "huijieSaloonConfession": "那个慧杰叔叔居然挑战我做俯卧撑比赛...我做了三十个就放弃了。他做了一百个还在继续。$2"
+                "huijieSaloonConfession": "那个慧杰叔叔居然挑战我做俯卧撑比赛...我做了三十个就放弃了。他做了一百个还在继续，伸着长脖子做俯卧撑的样子，就像一只加拉帕戈斯象龟。但又像象龟一样倔强。$2"
+            }
+        },
+
+        //Abigail — 添加关于慧杰的对话
+        {
+            "LogName": "Abigail dialogue about huijie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "huijieSaloonConfession": "那个卖桃子的家伙说他研究过鱼类？我给他看了一张河豚的照片——那可是我最喜欢的鱼——他盯了半天，然后问我是不是给他看了一只海豚。$2#$b#...我本来还想和他聊聊鱼的，但现在我只想远离他的桃子。$1"
             }
         }
     ]

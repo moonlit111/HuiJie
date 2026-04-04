@@ -26,7 +26,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "Entries":
-            { "huijie": "彩蛋？不如去找桃核！我每年都这么跟孩子们说，然后被乔迪瞪一眼。#$b#操练你的眼睛，在草丛里找东西也是一种视觉操练！#$0#" }
+            { "huijie": "彩蛋？不如去找桃核！我每年都这么跟孩子们说，然后被乔迪瞪一眼。#$b#操练你的眼睛，在草丛里找东西也是一种视觉操练！找不到？那能中！回去做一百个俯卧撑！#$0#" }
         },
 
         {
@@ -82,7 +82,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
             "Entries":
-            { "huijie": "我给总督带了特制桃子汤，是用我研究了三年的秘方熬的！#$b#...当然，他去年连看都没看就走了。但今年一定不一样，我对配方进行了操练级别的改进！#$3#" }
+            { "huijie": "我给总督带了特制桃子汤，是用我研究了三年的秘方熬的！#$b#...当然，他去年连看都没看就走了。但今年一定不一样，我对配方进行了操练级别的改进！$0#" }
         },
 
         {
@@ -110,7 +110,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
             "Entries":
-            { "huijie": "水母！这些生物的神经系统是我研究生时期的重点研究方向！#$b#虽然我论文里把部分水母误分类成了河豚的近亲...但那只是一个小失误！#$b#看着它们发光的样子，让我重新燃起了学术热情！#$1#" }
+            { "huijie": "水母！这些生物的神经系统是我研究生时期的重点研究方向！虽然不是中华鲟...#$b#顺便说一句，你知道中华鲟从大海洄游几千公里回长江产卵吗？我当年的课题就是追踪它们...结果我把探测器套在了鱼的脖子上。鱼没有脖子啊！#$b#看着水母发光的样子，让我重新燃起了学术热情！$1#" }
         },
 
         {
@@ -186,7 +186,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
             "Entries":
-            { "huijie": "我不怕鬼。真正的恐惧是你提交了一篇花了两年写的研究论文，然后审稿人告诉你海豚不是河豚。#$b#那才是万圣节该讲的可怖故事。#$2#" }
+            { "huijie": "我不怕鬼。真正的恐惧是——你精心培养了一整年的四个种子选手，全军覆没，一个都没进全国决赛。2023届竞赛班...那才是万灵节该讲的可怖故事。$2#" }
         },
 
         {
@@ -236,7 +236,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
             "Entries":
-            { "huijie": "冰钓比赛？终于有我能发挥专业特长的地方了！鱼类行为学，我的本行！#$b#唯一的问题是...我钓上来的每条鱼都忍不住先鉴定一下物种，然后比赛就结束了。#$7#" }
+            { "huijie": "冰钓比赛？终于有我能发挥专业特长的地方了！鱼类行为学，我的本行！#$b#我当年在浅川做研究的时候，从来没见过这么厚的冰。临江的冬天哪有这种待遇！那能中，入乡随俗，来比赛吧！#$b#唯一的问题是...我钓上来的每条鱼都忍不住先鉴定一下物种，然后比赛就结束了。$7#" }
         },
 
         {
@@ -258,7 +258,95 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
             "Entries":
-            { "huijie": "冬日星盛会！我今年准备了一份特别的桃子礼物给秘密礼物交换对象。#$b#...好吧是去年的存货，但我做了翻新操练！表面看起来和新的一样！#$b#等等，你不会是我的交换对象吧？#$3#" }
+            { "huijie": "冬日星盛宴！我今年准备了一份特别的桃子礼物给秘密礼物交换对象。#$b#...好吧是去年的存货，但我做了翻新操练！表面看起来和新的一样！#$b#等等，你不会是我的交换对象吧？$3#" }
         },
+
+        {
+            "LogName": "Desert Festival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring15",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 15 23 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Desert Festival - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring15",
+            "Entries":
+            { "huijie": "沙漠节！这种极端环境对桃子保存研究太有价值了！#$b#你知道吗，干燥环境可以大幅延长桃子的保质期，这就是科学！#$b#当然，我带来的桃子已经晒成了桃干...但这属于计划内的实验结果！$0#" }
+        },
+
+        {
+            "LogName": "Trout Derby",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 48 28 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Trout Derby - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20",
+            "Entries":
+            { "huijie": "鳟鱼大赛！终于有正经的钓鱼比赛了！鱼类行为学可不是白学的！#$b#...虽然我之前把虹鳟的目记错了，但那是因为分类学太无聊了，行为学才是重点！#$b#你看好我，这次我一定拿第一！$0#" }
+        },
+
+        {
+            "LogName": "SquidFest",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter12",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 22 37 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "SquidFest - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter12",
+            "Entries":
+            { "huijie": "鱿鱼节！头足类的神经系统可比鱼类复杂多了，这是我在研究生课上学的！#$b#虽然我分不清海豚和河豚...但鱿鱼和章鱼我还是能区分的！至少90%的时候能分清。#$b#操练你的手臂，钓鱿鱼需要特殊技巧，跟我学！$0#" }
+        },
+
+        {
+            "LogName": "Night Market",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter15",
+            "TextOperations":
+            [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "huijie 32 24 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "LogName": "Night Market - Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter15",
+            "Entries":
+            { "huijie": "夜市！我本来想在船上摆个桃子摊的，结果被拒绝了。#$b#他们说'桃子不是水产品'。那能中！什么逻辑！桃子在水里泡过不就是水产品了吗？#$b#...好吧，格斯说那叫'泡水的桃子'，不叫水产品。$2#" }
+        }
     ]
 }

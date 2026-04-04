@@ -1,0 +1,139 @@
+{
+    "Changes": [
+        {
+            "LogName": "Peach Stall Map Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "map/HuijieShop.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 13 },
+            "ToArea": { "X": 22, "Y": 41, "Width": 7, "Height": 13 },
+            "When": {
+                "HasValue:{{DayEvent}}": "false"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Peach Stall Shop Action Tile",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "MapTiles": [
+                {
+                    "Position": { "X": 25, "Y": 52 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OpenShop Finland.huijie_PeachStall"
+                    }
+                }
+            ],
+            "When": {
+                "HasValue:{{DayEvent}}": "false"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Custom Item - BakedPeach Texture",
+            "Action": "Load",
+            "Target": "Mods/Huijie/assets/images/BakedPeach",
+            "FromFile": "assets/images/BakedPeach.png"
+        },
+        {
+            "LogName": "Custom Item - BakedPeach Object Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Finland.huijie_BakedPeach": {
+                    "Name": "过熟的桃子",
+                    "DisplayName": "过熟的桃子",
+                    "Description": "已经不太新鲜了的桃子。软得快拿不住。但是便宜。罐子上贴了张纸条：「别问我为什么卖这个，问就是操练太忙没空挑拣。——慧杰」",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Edibility": -10,
+                    "IsDrink": false,
+                    "Price": 80,
+                    "Texture": "Mods/Huijie/assets/images/BakedPeach",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "food_cooking",
+                        "fruit_item",
+                        "peach_item"
+                    ],
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "LogName": "Peach Stall Shop Data",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Finland.huijie_PeachStall": {
+                    "Owners": [
+                        {
+                            "Id": "Finland.huijie_Default",
+                            "Name": "huijie",
+                            "Portrait": "Portraits/huijie",
+                            "Dialogues": [
+                                {
+                                    "Id": "Finland.huijie_ShopGreeting",
+                                    "Dialogue": "来来来，看看我的桃子！操练三个月的成果，不买也来看看！"
+                                },
+                                {
+                                    "Id": "Finland.huijie_ShopBought",
+                                    "Dialogue": "好眼光！桃子就要挑这样的。这是操练出来的鉴赏力!"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "Finland.huijie_Peach",
+                            "ItemId": "(O)636"
+                        },
+                        {
+                            "Id": "Finland.huijie_PeachJelly",
+                            "ItemId": "FLAVORED_ITEM Jelly (O)636"
+                        },
+                        {
+                            "Id": "Finland.huijie_PeachWine",
+                            "ItemId": "FLAVORED_ITEM Wine (O)636"
+                        },
+                        {
+                            "Id": "Finland.huijie_DriedPeach",
+                            "ItemId": "FLAVORED_ITEM DriedFruit (O)636"
+                        },
+                        {
+                            "Id": "Finland.huijie_BakedPeach",
+                            "ItemId": "(O)Finland.huijie_BakedPeach"
+                        },
+                        {
+                            "Id": "Finland.huijie_EnergyTonic",
+                            "ItemId": "(O)349"
+                        },
+                        {
+                            "Id": "Finland.huijie_PeachJuice",
+                            "ItemId": "FLAVORED_ITEM Juice (O)636"
+                        },
+                        {
+                            "Id": "Finland.huijie_Bait",
+                            "ItemId": "(O)685"
+                        },
+                        {
+                            "Id": "Finland.huijie_TreeFertilizer",
+                            "ItemId": "(O)805"
+                        },
+                        {
+                            "Id": "Finland.huijie_Coffee",
+                            "ItemId": "(O)395"
+                        },
+                        {
+                            "Id": "Finland.huijie_FieldSnack",
+                            "ItemId": "(O)403"
+                        }
+                    ],
+                    "SalableItemTags": [],
+                    "CustomFields": {}
+                }
+            }
+        }
+    ]
+}
